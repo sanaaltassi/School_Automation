@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en" dir="ltr">
-#
+
 <head>
   <meta charset="utf-8">
   <title>okul otomasyonu</title>
@@ -158,20 +158,19 @@
 <body>
 
   <input type="checkbox" id="check">
-  <!--header area start-->
+
   <header>
     <label for="check">
       <i class="fas fa-bars" id="sidebar_btn"></i>
     </label>
     <div class="left_area">
-      <h3>School Management</h3>
+      <h3>Okul Otomasyonu</h3>
     </div>
     <div class="right_area">
-      <a href="/logout" class="logout_btn">Logout</a>
+      <a href="/logout" class="logout_btn">Çıkış Yap</a>
     </div>
   </header>
-  <!--header area end-->
-  <!--sidebar start-->
+
   <div class="sidebar">
     <center>
 
@@ -180,14 +179,11 @@
 
     </center>
 
-    <a href="/teacher-dashboard"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
-    <a href="/teacher-attendance"><i class="fas fa-address-card"></i><span>Attendance</span></a>
+    <a href="/teacher-dashboard"><i class="fas fa-desktop"></i><span>Ana Sayfa</span></a>
+    <a href="/teacher-attendance"><i class="fas fa-address-card"></i><span>Yoklama</span></a>
 
   </div>
-  <!--sidebar end-->
 
-
-  <!--content start-->
   <div class="content">
     <br><br><br><br><br>
     {% block content %}
@@ -198,7 +194,7 @@
     <br><br><br>
     {% include "school/footer.html" %}
   </div>
-  <!--content end-->
+
 
 </body>
 

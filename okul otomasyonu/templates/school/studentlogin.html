@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>okul otomasyonu</title>
 
-#
+
   <style type="text/css">
     body {
       color: #aa082e;
@@ -62,13 +62,12 @@
   <br>
   <br><br>
 
-  <!--- signup page for teacher  ---------->
   <form method="post">
     {% csrf_token %}
     <div class="container register-form">
       <div class="form">
         <div class="note">
-          <p>Student Login Page</p>
+          <p>Öğrenci Giriş Sayfası</p>
         </div>
 
         <div class="form-content">
@@ -76,20 +75,20 @@
             <div class="col-md-6">
 
               <div class="form-group">
-                {% render_field form.username class="form-control" placeholder="Username" %}
+                {% render_field form.username class="form-control" placeholder="İsim" %}
               </div>
 
             </div>
             <div class="col-md-6">
 
               <div class="form-group">
-                {% render_field form.password class="form-control" placeholder="Password" %}
+                {% render_field form.password class="form-control" placeholder="Şifre" %}
               </div>
 
             </div>
           </div>
-          <button type="submit" class="btnSubmit">Login</button>
-          <div class="text-center">Do not have account? <a href="studentsignup">Signup here</a></div>
+          <button type="submit" class="btnSubmit">Giriş yap</button>
+          <div class="text-center">Hesabınız yok mu? <a href="studentsignup">Buradan kaydolun</a></div>
         </div>
       </div>
     </div>

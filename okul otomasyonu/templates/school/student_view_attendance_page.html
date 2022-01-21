@@ -1,7 +1,8 @@
-{% extends 'school/teacherbase.html' %}
+{% extends 'school/studentbase.html' %}
 {% block content %}
 
 <head>
+
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -19,18 +20,19 @@
       margin: 100px;
     }
   </style>
+
 </head>
 <div class="container">
   <div class="row">
     <div class="panel panel-primary">
       <div class="panel-heading">
-        <h6 class="panel-title">Sınıfın Yoklaması {{cl}}Ve Tarihi {{date}}</h6>
+        <h6 class="panel-title">{{date}} tarihindeki Katılımınız</h6>
       </div>
       <table class="table table-hover" id="dev-table">
         <thead>
           <tr>
-            <th>Öğrenci İsmi</th>
-            <th>Öğrenci Sınıfı</th>
+            <th>Öğrenci adı</th>
+            <th>öğrenci sınıfı</th>
             <th>Var/Yok</th>
           </tr>
         </thead>
@@ -45,4 +47,5 @@
     </div>
   </div>
 </div>
+
 {% endblock content %}

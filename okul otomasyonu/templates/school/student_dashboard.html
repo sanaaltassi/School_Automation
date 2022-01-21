@@ -1,4 +1,4 @@
-{% extends 'school/teacherbase.html' %}
+{% extends 'school/studentbase.html' %}
 {% load static %}
 
 
@@ -40,7 +40,7 @@
 </head>
 <br>
 
-{%include 'school/teacher_dashboard_cards.html'%}
+{%include 'school/student_dashboard_cards.html'%}
 
 <br><br>
 {%for n in notice%}
@@ -50,6 +50,7 @@
 </div>
 <br><br>
 <br><br><br>
+
 
 {%endfor%}
 

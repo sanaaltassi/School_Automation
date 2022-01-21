@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-#
+
 {% load widget_tweaks %}
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>LazyCoder || sumit</title>
+  <title>okul otomasyonu</title>
   <style type="text/css">
     body {
       color: #aa082e;
@@ -59,52 +59,49 @@
   <br>
 
 
-
-
-  <!--- signup page for teacher  ---------->
   <form method="post">
     {% csrf_token %}
     <div class="container register-form">
       <div class="form">
         <div class="note">
-          <p>New Admission To School</p>
+          <p>Okula Yeni Kayıt</p>
         </div>
 
         <div class="form-content">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                {% render_field form1.first_name class="form-control" placeholder="First Name" %}
+                {% render_field form1.first_name class="form-control" placeholder="isim" %}
               </div>
               <div class="form-group">
-                {% render_field form1.username class="form-control" placeholder="Username" %}
+                {% render_field form1.username class="form-control" placeholder="Kullanıcı Adı" %}
               </div>
               <div class="form-group">
-                {% render_field form2.cl class="form-control" placeholder="Class" %}
+                {% render_field form2.cl class="form-control" placeholder="Sınıf" %}
               </div>
               <div class="form-group">
-                {% render_field form2.mobile class="form-control" placeholder="Mobile" %}
+                {% render_field form2.mobile class="form-control" placeholder="Cep Telefonu" %}
               </div>
 
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                {% render_field form1.last_name class="form-control" placeholder="Last Name" %}
+                {% render_field form1.last_name class="form-control" placeholder="Soyİsim" %}
               </div>
               <div class="form-group">
-                {% render_field form1.password class="form-control" placeholder="Password" %}
+                {% render_field form1.password class="form-control" placeholder="Şifre" %}
               </div>
               <div class="form-group">
-                {% render_field form2.roll class="form-control" placeholder="Roll" %}
+                {% render_field form2.roll class="form-control" placeholder="Class" %}
               </div>
               <div class="form-group">
-                {% render_field form2.fee class="form-control" placeholder="Fee" %}
+                {% render_field form2.fee class="form-control" placeholder="Borç" %}
               </div>
 
             </div>
           </div>
-          <button type="submit" class="btnSubmit">Take Admission</button>
-          <div class="text-center">Already have an account? <a href="studentlogin">Login here</a></div>
+          <button type="submit" class="btnSubmit">Kayitli Ol</button>
+          <div class="text-center">Hesabınız yok mu? <a href="studentlogin">Buradan kaydolun</a></div>
         </div>
       </div>
     </div>

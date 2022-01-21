@@ -44,13 +44,12 @@
 
 </head>
 
-<!------ date page for attendance by teacher(sumit)  ---------->
 <form method="post">
   {% csrf_token %}
   <div class="container register-form">
     <div class="form">
       <div class="note">
-        <p>PLEASE ENTER DATE FOR ATTENDANCE OF CLASS &nbsp <strong>{{cl}}</strong></p>
+        <p>DERSLERE KATILIM TARİHİNİ GİRİNİZ &nbsp <strong>{{cl}}</strong></p>
       </div>
 
       <div class="form-content">
@@ -63,7 +62,7 @@
           </div>
 
         </div>
-        <button type="submit" class="btnSubmit">Submit</button>
+        <button type="submit" class="btnSubmit">Sunmak</button>
       </div>
     </div>
   </div>

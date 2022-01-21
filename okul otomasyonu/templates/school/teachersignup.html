@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>LazyCoder || sumit</title>
+  <title>Okul Otomasyonu</title>
   <style type="text/css">
     body {
       color: #aa082e;
@@ -58,55 +58,52 @@
   <br>
   <br>
 
-
-
-
-  <!--- signup page for teacher--------->
   <form method="post">
     {% csrf_token %}
     <div class="container register-form">
       <div class="form">
         <div class="note">
-          <p>Apply For Teacher Job </p>
+          <p>Öğretmen İşi İçin Başvurun</p>
         </div>
 
         <div class="form-content">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                {% render_field form1.first_name class="form-control" placeholder="First Name" %}
+                {% render_field form1.first_name class="form-control" placeholder="isim" %}
               </div>
               <div class="form-group">
-                {% render_field form1.username class="form-control" placeholder="Username" %}
+                {% render_field form1.username class="form-control" placeholder="Kullanıcı Adı" %}
               </div>
               <div class="form-group">
-                {% render_field form2.mobile class="form-control" placeholder="Mobile" %}
+                {% render_field form2.mobile class="form-control" placeholder="Cep Telefonu" %}
               </div>
 
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                {% render_field form1.last_name class="form-control" placeholder="Last Name" %}
+                {% render_field form1.last_name class="form-control" placeholder="Soyİsim" %}
               </div>
               <div class="form-group">
-                {% render_field form1.password class="form-control" placeholder="Password" %}
+                {% render_field form1.password class="form-control" placeholder="Şifre" %}
               </div>
               <div class="form-group">
-                {% render_field form2.salary class="form-control" placeholder="Salary" %}
+                {% render_field form2.salary class="form-control" placeholder="Maaş" %}
               </div>
 
             </div>
           </div>
-          <button type="submit" class="btnSubmit">Apply</button>
-          <div class="text-center">Already have an account? <a href="teacherlogin">Login here</a></div>
+          <button type="submit" class="btnSubmit">Başvuru Yap</button>
+          <div class="text-center">Hesabınız yok mu? <a href="teacherlogin">Buradan kaydolun</a></div>
         </div>
       </div>
     </div>
 
   </form>
 
-
+  <br><br>
+  <br><br>
   {% include "school/footer.html" %}
 </body>
-#
+
 </html>
