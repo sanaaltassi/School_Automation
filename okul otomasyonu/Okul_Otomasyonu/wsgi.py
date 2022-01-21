@@ -1,5 +1,5 @@
 """
-WSGI config for schoolmanagement project.
+WSGI config for Okul_Otomasyonu project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -10,6 +10,6 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 import os
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'schoolmanagement.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Okul_Otomasyonu.settings')
 
 application = get_wsgi_application()
