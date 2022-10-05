@@ -1,5 +1,5 @@
 # School_Automation
-![image](https://user-images.githubusercontent.com/47948105/194055233-a040df98-7d81-41f9-975f-3e26329d4546.png)
+![image](https://user-images.githubusercontent.com/47948105/194057037-e45f5aa1-7849-4db7-8cc3-87c7dbb513cf.png)
 
 ![image](https://user-images.githubusercontent.com/47948105/194055348-80602824-8e4a-45e7-8313-6003c488e75f.png)
 
@@ -9,4 +9,6 @@
 
 ![image](https://user-images.githubusercontent.com/47948105/194055956-bbe3fa41-53e9-42a8-9279-c11f1880bfaf.png)
 
-![image](https://user-images.githubusercontent.com/47948105/194056429-338a6565-9a9b-4cb8-b411-67047033eab5.png)
+![image](https://user-images.githubusercontent.com/47948105/194056838-6dab7a8d-4377-446c-98de-c1ea2f9bd1d0.png)
+
+![image](https://user-images.githubusercontent.com/47948105/194056961-eb498a36-3d4f-4b44-b776-cca64f6cba21.png)
